@@ -51,6 +51,7 @@ public class Calculator {
     if ("+".equals(operation)) { // если операция равно +
       System.out.println("Результат: " + calculator.sum(a, b));
     } else if ("-".equals(operation)) {
+      System.out.println("Результат: " + calculator.sub(a, b));
       //TODO Напиши вызов метода вычитания и выпод результата здесь
 
     } //TODO Допиши проверки для умножения и деления
@@ -66,6 +67,10 @@ public class Calculator {
    */
   private double sum(double a, double b) {
     return a + b;
+  }
+
+  private double sub(double a, double b) {
+    return a - b;
   }
 
 
